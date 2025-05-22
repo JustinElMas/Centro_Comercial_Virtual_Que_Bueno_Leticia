@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/static/css/main.c090080a.css",
+    "main.js": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/static/js/main.aa801db0.js",
+    "static/media/BN-SALPICON.jpeg": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/static/media/BN-SALPICON.8ac0f219a563a03d4693.jpeg",
+    "index.html": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/index.html",
+    "main.c090080a.css.map": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/static/css/main.c090080a.css.map",
+    "main.aa801db0.js.map": "/Centro_Comercial_Virtual_Que_Bueno_Leticia/static/js/main.aa801db0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c090080a.css",
+    "static/js/main.aa801db0.js"
+  ]
+}
