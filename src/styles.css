@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.home-title {
+  background-color: #ff0022;
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.home-title > span {
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.bussines-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.bussines-list li {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  list-style: none;
+}
+.bussines-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button-cta-empresa,
+.button-cta-domicilio {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón para contactar a la empresa (más institucional) */
+.button-cta-empresa {
+  background-color: rgb(86, 194, 15);
+  color: #f2f2f2;
+}
+
+.button-cta-empresa:hover {
+  background-color: #fdfeff;
+  color: rgb(86, 194, 15);
+  transition: 350ms;
+}
+
+/* Botón para pedir domicilio (más llamativo y amigable) */
+.button-cta-domicilio {
+  background-color: #fdf900;
+  color: #000;
+}
+
+.button-cta-domicilio:hover {
+  background-color: #000;
+  color: #fdf900;
+  transition: 350ms;
+}
+
+.title-tienda-bario {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
+  margin: 40px 0px;
+  border-radius: 15px;
+  background-color: red;
+  color: #fdfeff;
+}
+
+.parrafo {
+  font-size: 100%;
+  margin: 10px 0;
+}
+
+.imagen-producto {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.3s ease;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.imagen-producto:hover {
+  transform: scale(1.03);
+}
+
+.emoji-full {
+  background-color: #ffffff;
+  border-radius: 10%;
+  padding: 0 2px;
+}
