@@ -1,4 +1,4 @@
-import imgSalpicon from "../assets/BN-SALPICON.jpeg";
+import imgSalpicon from "./assetsBN-SALPICON.jpeg/";
 
 const emprendimientos = [
   {
